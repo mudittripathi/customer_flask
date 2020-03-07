@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          {% set fname = 'images/' + services.img_file %}
+          <img class="card-img-top" src="{{ url_for('static', filename=fname) }}" alt="image loading issue">
+          <div class="card-body">
+            <h4 class="card-title">{{services.ser_title}}</h4>
+            <p class="card-text">Customer experience, also known as CX, is your customers' holistic perception of their experience with your business or brand. CX is the result of every interaction a customer has with your business, from navigating the website to talking to customer service and receiving the product/service they bought from you </p>
+          </div>
+          <div class="card-footer">
+            <a href="http://127.0.0.1:5000/services" class="btn btn-primary">Go back</a>
+          </div>
+        </div>
+      </div>
+      
+
+  </div>
+{% endblock %}

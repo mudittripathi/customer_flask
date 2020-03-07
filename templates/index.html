@@ -1,0 +1,83 @@
+{% extends "layout.html" %}
+{% block body %}
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 mb-5">
+        <h2>What We Do</h2>
+        <hr>
+        <p>Our globally distributed intelligent edge platform surrounds everything, from the enterprise to the cloud, so our customers and their businesses can be fast, smart, and secure. We keep decisions, apps and experiences closer to users than anyone — and attacks and threats far away. We extend your existing cloud solutions to deliver superior user experiences that are instantaneous, rich, and create lasting business value.
+
+And Akamai’s portfolio of edge security, web and mobile performance, and OTT solutions is supported by unmatched customer service and 24/7/365 monitoring.
+
+It’s the competitive edge you need to transform your businesses. To accelerate and secure your multi-cloud world. And to own your digital future.</p>
+        <a class="btn btn-primary btn-lg" href="/registration">Registration &raquo;</a>
+        <hr>
+        <a class="btn btn-primary btn-lg" href="/admin">Admin &raquo;</a>
+      </div>
+      <div class="col-md-4 mb-5">
+        <h2>Contact Us</h2>
+        <hr>
+        <address>
+          <strong>Mailing Address</strong>
+          <br>3481 Melrose Place
+          <br>Beverly Hills, CA 90210
+          <br>
+        </address>
+        <address>
+          <abbr title="Phone">P:</abbr>
+          (123) 456-7890
+          <br>
+          <abbr title="Email">E:</abbr>
+          <a href="mailto:#">customer@innovation.com</a>
+        </address>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/Call.jpg') }}" alt="image loading issue">
+          <div class="card-body">
+            <h4 class="card-title">Customer Experience</h4>
+            <p class="card-text">Customer experience, also known as CX, is your customers' holistic perception of their experience with your business or brand. CX is the result of every interaction a customer has with your business, from navigating the website to talking to customer service and receiving the product/service they bought from you</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/customer2.jpg') }}" alt="image loading issue">
+          <div class="card-body">
+            <h4 class="card-title">Reliability</h4>
+            <p class="card-text">Reliability has to do with the quality of measurement. In its everyday sense, reliability is the “consistency” or “repeatability” of your measures. Before we can define reliability precisely we have to lay the groundwork</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="{{ url_for('static', filename='images/customer1.jpg') }}" alt="image loading issue">
+          <div class="card-body">
+            <h4 class="card-title">Security</h4>
+            <p class="card-text">Security is freedom from, or resilience against, potential harm (or other unwanted coercive change) caused by others. Beneficiaries (technically referents) of security may be of persons and social groups, objects and institutions, ecosystems or any other entity or phenomenon vulnerable to unwanted change.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+
+{% endblock %}
