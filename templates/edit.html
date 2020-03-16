@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+  <!-- Page Header -->
+  <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <a href='/admin'><button type="button" class="btn btn-primary">Dashboard home</button></a>
+            <a href='/logout'><button type="button" class="btn btn-primary">Logout</button></a>
+            <hr>
+            <h1>Add/Edit your Services</h1>
+            <br>
+            <span class="subheading">here you go</span>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p></p>
+        <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+        <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+        <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+        <form name="sentMessage" id="contactForm" action = "/edit/{{serviceno}}" method="post" novalidate>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>Service-title</label>
+              <input type="text" class="form-control" placeholder="title here" id="name" name="ser_title" required data-validation-required-message="Please enter title." value = "{{services_modify.ser_title}}">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>Content</label>
+              <input type="text" class="form-control" placeholder="content here" id="ser_con" name="ser_content" required data-validation-required-message="Please enter your content." value = "{{services_modify.content}}">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>slug</label>
+              <input type="text" class="form-control" placeholder="slug here" id="ser_slug" name="ser_slug" required data-validation-required-message="Please enter your content." value = "{{services_modify.slug}}">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label>image</label>
+              <input type="text" class="form-control" placeholder="image-file here" id="ser_img" name="ser_img" required data-validation-required-message="Please enter your content." value = "{{services_modify.img_file}}">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <br>
+          <div id="success"></div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary" id="sendMessageButton">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

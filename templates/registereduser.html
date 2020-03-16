@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+{% block body %}
+<table class="table">
+    <thead>
+      <tr>
+        <th>Registration_ID</th>
+        <th>Name</th>
+        <th>Mail_ID</th>
+        <th>Password</th>
+        <th>Phone_No</th>
+        <th>Country</th>
+        <th>Services</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{registered_user.reg_id}}</td>
+        <td>{{registered_user.Name}}</td>
+        <td>{{registered_user.email}}</td>
+        <td>{{registered_user.password}}</td>
+        <td>{{registered_user.Phone}}</td>
+        <td>{{registered_user.Country}}</td>
+        <td>{{registered_user.Services}}</td>
+    </tbody>
+  </table>
+<br>
+<br>
+<a href='/logout_user'><button type="button" class="btn btn-primary">Logout</button></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+{% endblock %}

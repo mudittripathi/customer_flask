@@ -3,8 +3,7 @@
 
 
 
-{% for item in items %}
-<!-- <li><a href="/items/{{items.slug}}">{{items.ser_title}} -->
+{% for item in s_items %}
 <div class="row">
       <div class="col-md-4 mb-5">
         <div class="card h-100">
@@ -19,50 +18,18 @@
           </div>
         </div>
       </div>
+  </div>
+      
+
+  {% endfor %}
 
 
+ <div class="clearfix">
+          {% if number!= 0 %}
+          <a class="btn btn-primary float-left" href="{{prev}}">&larr; Previous</a> 
+          {% endif %}
+          <a class="btn btn-primary float-right" href="{{next}}">Next &rarr;</a>
+</div>
 
-      <!-- <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="{{ url_for('static', filename='images/customer2.jpg') }}" alt="image loading issue">
-          <div class="card-body">
-            <h4 class="card-title">Reliability</h4>
-            <p class="card-text">Reliability has to do with the quality of measurement. In its everyday sense, reliability is the “consistency” or “repeatability” of your measures. Before we can define reliability precisely we have to lay the groundwork</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="{{ url_for('static', filename='images/customer1.jpg') }}" alt="image loading issue">
-          <div class="card-body">
-            <h4 class="card-title">Security</h4>
-            <p class="card-text">Security is freedom from, or resilience against, potential harm (or other unwanted coercive change) caused by others. Beneficiaries (technically referents) of security may be of persons and social groups, objects and institutions, ecosystems or any other entity or phenomenon vulnerable to unwanted change.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="{{ url_for('static', filename='images/customer1.jpg') }}" alt="image loading issue">
-          <div class="card-body">
-            <h4 class="card-title">Security</h4>
-            <p class="card-text">Security is freedom from, or resilience against, potential harm (or other unwanted coercive change) caused by others. Beneficiaries (technically referents) of security may be of persons and social groups, objects and institutions, ecosystems or any other entity or phenomenon vulnerable to unwanted change.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div> -->
-      </div>
-    <<!-- /div>
-    
 
-  </div> -->
-<!-- </a></li> -->
-{% endfor %}
 {% endblock %}

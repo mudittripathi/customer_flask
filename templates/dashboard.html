@@ -1,0 +1,74 @@
+{% extends 'layout.html' %}
+{% block body%}
+	
+
+
+<div class='head'>
+<h2 style="display: inline-block; 
+margin-left: 430px;"><strong>Welcome. You are logged in to the dashboard page. </strong>
+</h2></div>
+<br>
+<br>
+<h1>Basic Actions</h1>
+<hr>
+<a href='/edit/0'><button type="button" class="btn btn-primary">Add new services</button></a>
+<a href='/users'><button type="button" class="btn btn-primary">Registered Data</button></a>
+<a href='/logout'><button type="button" class="btn btn-primary">Logout</button></a>
+<hr>
+<br>
+<h2>Upload file here</h2>
+<form action = '/uploader' method = 'post' enctype="multipart/form-data">
+	<input type = 'file' name = 'file1'>
+	<button class="btn btn-primary">Submit</button>
+</form>
+<br>
+<hr>
+<br>
+<h2><strong>Edit Posts</strong></h2>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>Sno</th>
+        <th>title</th>
+        <th>Content</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    	{% for item in items%}
+      <tr>
+        <td>{{item.ser_no}}</td>
+        <td>{{item.ser_title}}</td>
+        <td>{{item.content[:20]}}</td>
+        <td><a href='/edit/{{item.ser_no}}'><button type="button" class="btn btn-primary">Edit</button></a></td>
+        <td><a href='/delete/{{item.ser_no}}'><button type="button" class="btn btn-primary">Delete</button></a></td>
+      </tr>
+
+
+      {% endfor %}
+      
+      <!-- <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr> -->
+    </tbody>
+  </table>
+ <hr>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+{% endblock %}

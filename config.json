@@ -7,10 +7,12 @@
       "website_name": "Customer Innovation Center",
       "head_name": "Customer",
       "gmail_user": "hankshcra@gmail.com",
-      "gmail_password": "Agentshrader@123"
-
-
-
+      "gmail_password": "Agentshrader@123",
+      "avatar_img": "muditpic.jpg",
+      "admin_user": "mudit",
+      "admin_password": "breakingbad",
+      "uploader_location": "C:\\Users\\MuditTripathi\\PycharmProjects\\Customer_data\\static\\images",
+      "no_of_ser": 3
 
 
   }

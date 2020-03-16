@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf25a8b9-a8d4-4d65-b074-e2d1c426825a" name="Default Changelist" comment="" />
+    <list default="true" id="bf25a8b9-a8d4-4d65-b074-e2d1c426825a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/MuditTripathi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YfpyuB0gLM2x4Qogb1Q3LTkPEr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,9 +39,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Customer_data" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,9 +64,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="practice1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Customer_data" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Pythontuts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Pythontuts/practice1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.practice1" />
       </list>
     </recent_temporary>
   </component>
@@ -80,29 +118,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="201" key="FileChooserDialogImpl" timestamp="1583599713710">
+    <state x="549" y="201" key="FileChooserDialogImpl" timestamp="1584119751488">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="549" y="201" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1583599713710" />
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1583617884398">
+    <state x="549" y="201" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1584119751488" />
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1584380111878">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583617884398" />
-    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1583617884397">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1584380111878" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1584380111878">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583617884397" />
-    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1583617884392">
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1584380111878" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1584380111878">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583617884392" />
-    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1583617884397">
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1584380111878" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1584380111878">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583617884397" />
-    <state x="465" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1583599576961">
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1584380111878" />
+    <state x="465" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1584380149567">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="465" y="270" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1583599576961" />
+    <state x="465" y="270" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1584380149567" />
   </component>
 </project>
